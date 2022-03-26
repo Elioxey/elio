@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+/*aspectos generales: bordes y color de fondo de calculadora*/
+
+h1{
+    background-color: #2f4eab;
+    color: white;
+    text-align: center;
+    font-family: 'Fredoka', sans-serif;
+}
+.calculadora { border: 3px rgb(247, 247, 250) ridge; width: 600px;
+                text-align: center;
+               background-color: #434f66; 
+               border-radius: 10%;
+               }
+
+/*pantalla de visualización: bordes, posición, color de fondo, estilo letra.*/
+#textoPantalla { width: 500px; border: 2px rgb(248, 245, 245) solid; 
+                 text-align: right; 
+                 position: relative; left: 30px;  padding: 5px 5px;
+                 background-color: rgb(129, 190, 231);  font-family: 'Fredoka', sans-serif;}
+
+/*botones normales: anchura y margen*/
+.calculadora [type=button] { width: 95px; padding: 0;  font-weight: bold;
+                            font-family: 'Fredoka', sans-serif; font-size: 100%;
+                            background-color: rgb(143, 196, 231); border:rgb(143, 196, 231) ;}
+/*botones especiales*/
+.calculadora input.largo { color:#f3f5fa; width: 150px; font-size: 100%;
+                            font-weight: bold; background-color: #8ba0aa88; }
+.calculadora input.funcion { color:#f3f5fa; width: 150px; font-size: 100%;
+                                font-weight: bold; background-color: #87bdd688; }
+.calculadora input.convertir { color:#f3f5fa; width: 150px; font-size: 100%;
+                                    font-weight: bold; background-color: #87bdd688; }
